@@ -1,0 +1,33 @@
+body{
+	background-color:lightgreen;
+}
+table{
+	margin:10px auto;
+}
+td.card{
+	width:80px;
+	height:120px;
+	margin:2px;
+	background-size:cover;
+}
+td.card.back{
+	background-image:url(../images/z01.gif) !important;
+}
+td.card.seikai{
+	visibility: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+.gamename{
+	text-align:center;
+	height:120px;
+	line-height:120px;
+	font-size: 100px;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: white;
+}
+
+#timer{
+	color: black;
+	font-size: 30px;
+}
